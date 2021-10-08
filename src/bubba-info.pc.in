@@ -1,0 +1,11 @@
+prefix=@PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+ 
+Name: libbubba-info
+Description: Identifies bubba
+Version: @VERSION@
+Libs: -L${libdir} -lbubba-info
+Cflags: -I${includedir}
+

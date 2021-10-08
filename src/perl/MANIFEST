@@ -1,0 +1,8 @@
+bubba_info_perl.xs
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/bubba_info.t
+lib/Bubba/Info.pm
